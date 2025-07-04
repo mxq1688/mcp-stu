@@ -1,0 +1,21 @@
+{
+  "name": "simple-mcp-demo-server",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node --experimental-specifier-resolution=node build/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.15.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "zod": "^3.25.53"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.3",
+    "@types/node": "^20.19.4",
+    "typescript": "^5.8.3"
+  }
+}
